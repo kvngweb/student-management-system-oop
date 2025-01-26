@@ -73,4 +73,18 @@ class Student {
       }
     }
   }
-  
+  // Test the system
+const system = new StudentManagementSystem();
+
+// Add students
+system.addStudent(1, "John Blind");
+system.addStudent(2, "Jane Samuel");
+
+// Add grades
+system.addGradeToStudent(1, 85);
+system.addGradeToStudent(1, 90);
+system.addGradeToStudent(2, 78);
+
+// View student details
+system.viewStudent(1);
+system.viewStudent(2);
